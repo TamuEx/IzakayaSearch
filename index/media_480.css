@@ -166,10 +166,13 @@
 .sp-b {
     justify-content: space-between;
 }
+
 .bg-header {
     background: #BEF6FD;
 }
 
-.h-icon{
-    color: #666666;
+.h-icon {
+    top: 5px;
+    left: 10px;
+    color: black;
 }
