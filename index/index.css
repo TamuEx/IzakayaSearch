@@ -1,0 +1,172 @@
+.padding-8 {
+    padding: 8px;
+}
+
+.border-8 {
+    border: double 10px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.fixid {
+    position: fixed;
+}
+
+.ta-r {
+    text-align: right;
+}
+
+.tr-c {
+    text-align: center;
+}
+
+.font {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-28 {
+    font-size: 28px;
+}
+
+.float-left {
+    float: left;
+}
+
+.b-white {
+    background: white;
+}
+
+.b-black {
+    background-color: black;
+}
+
+.color-black {
+    color: black;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-gray {
+    color: #666666;
+}
+
+.color-br {
+    color: #EB503C;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.m-widht_1600 {
+    max-width: 1600px;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.top-70 {
+    top: 70px;
+}
+
+.top-150 {
+    top: 150px;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.pd-5 {
+    padding: 5px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.m-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.v-top {
+    vertical-align: top;
+}
+
+.w-mode-rl {
+    writing-mode: vertical-rl;
+}
+
+.z-500 {
+    z-index: 500;
+}
+
+.sp-b {
+    justify-content: space-between;
+}
+.bg-header {
+    background: #BEF6FD;
+}
+
