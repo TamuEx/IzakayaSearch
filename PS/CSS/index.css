@@ -1,0 +1,85 @@
+h1{
+  color: red;
+}
+
+@media screen and (max-width: 479px) {
+  html{
+    min-height: 100%;
+  }
+
+  body{
+    margin: 0px;
+    background: linear-gradient(#FFFFCC,#FFCC33);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+  }
+
+
+
+  .top{
+    text-align: center;
+  }
+
+  .top img{
+    float: left;
+  }
+
+  .top h1{
+    display: inline-block;
+  }
+
+  @keyframes img{
+    100%{
+      width: 45%;
+      height: 45%;
+    }
+  }
+
+  .img{
+    vertical-align: bottom;
+  }
+
+  .img:active {
+    animation-name: img; /*名前*/
+    animation-duration: 500ms;/*アニメーション時間*/
+    animation-timing-function: ease;/*アニメーションの緩急*/
+    animation-fill-mode: forwards;/*アニメーション後の動き*/
+  }
+
+  .bottom{
+    margin: 10px;
+    text-align: center;
+  }
+
+  .bottom_icon{
+
+  }
+
+  .body{
+
+  }
+
+  .sab_body{
+    text-align: center;
+  }
+
+  .sub_bottom{
+    margin: 20px;
+    text-align: center;
+  }
+
+  .map{
+    margin-right: 10%;
+    border-style: solid;
+  }
+
+  .taberogu{
+    margin-left: 10%;
+    border-style: solid;
+  }
+
+}
