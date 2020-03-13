@@ -49,8 +49,21 @@
     }
   }
 
-  .RestaurantImg {
-    vertical-align: bottom;
+  .restrantList {
+    width: 100%;
+  }
+
+  .restrantList__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .restrantList__item {
+    width: 50%;
+  }
+
+  .restrantList__itemImg {
+    width: 100%;
   }
 
   .img:active {
