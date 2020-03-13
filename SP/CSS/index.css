@@ -21,10 +21,6 @@
     font-size: 0;
   }
 
-  li {
-    display: inline;
-  }
-
   .wrap {
     overflow: hidden;
   }
@@ -49,6 +45,9 @@
     }
   }
 
+  /*************************
+        レストランリスト
+  *************************/
   .restrantList {
     width: 100%;
   }
