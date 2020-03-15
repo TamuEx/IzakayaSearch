@@ -4,6 +4,8 @@
 <head>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/index.css">
+  <script src="./js/anime.min.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
   <title>八王子の安い居酒屋を探すやつ</title>
@@ -28,6 +30,12 @@
         <li class="Restaurant__Item">
           <a href="./dummy_page1.html"><img class="Restaurant__ItemImg" src="./img/top/dummy-top1.jpg" alt="dummy-top1"></a>
         </li>
+        <script>
+          anime({
+            targets: '#anime__img',
+            scale:0.8
+          });
+        </script>
         <li class="Restaurant__Item">
           <a href="#"><img class="Restaurant__ItemImg" src="./img/top/dummy-top2.jpg" alt="dummy-top2"></a>
         </li>
