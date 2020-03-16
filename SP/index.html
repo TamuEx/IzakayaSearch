@@ -4,8 +4,6 @@
 <head>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/index.css">
-  <script src="./js/anime.min.js"></script>
-  <script type="text/javascript" src="./js/index.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
   <title>八王子の安い居酒屋を探すやつ</title>
@@ -27,43 +25,38 @@
     </caption>
     <div class="Restaurant__List">
       <ul class="Restaurant__wrapper">
-        <li class="Restaurant__Item">
-          <a href="./dummy_page1.html"><img class="Restaurant__ItemImg" src="./img/top/dummy-top1.jpg" alt="dummy-top1"></a>
-        </li>
-        <script>
-          anime({
-            targets: '#anime__img',
-            scale:0.8
-          });
-        </script>
-        <li class="Restaurant__Item">
-          <a href="#"><img class="Restaurant__ItemImg" src="./img/top/dummy-top2.jpg" alt="dummy-top2"></a>
+        <li class="Restaurant__Item" >
+          <a href="./dummy_page1.html"><img class="Restaurant__ItemImg" onclick="animation(this);" src="./img/top/dummy-top1.jpg" alt="dummy-top1"></a>
         </li>
         <li class="Restaurant__Item">
-          <a href="#"><img class="Restaurant__ItemImg" src="./img/top/dummy-top3.jpg" alt="dummy-top3"></a>
+          <a href="#"><img class="Restaurant__ItemImg" onclick="animation(this);" src="./img/top/dummy-top2.jpg" alt="dummy-top2"></a>
         </li>
         <li class="Restaurant__Item">
-          <a href="#"><img class="Restaurant__ItemImg" src="./img/top/dummy-top4.jpg" alt="dummy-top4"></a>
+          <a href="#"><img class="Restaurant__ItemImg" onclick="animation(this);" src="./img/top/dummy-top3.jpg" alt="dummy-top3"></a>
         </li>
         <li class="Restaurant__Item">
-          <a href="#"><img class="Restaurant__ItemImg" src="./img/top/dummy-top5.jpg" alt="dummy-top5"></a>
+          <a href="#"><img class="Restaurant__ItemImg" onclick="animation(this);" src="./img/top/dummy-top4.jpg" alt="dummy-top4"></a>
         </li>
         <li class="Restaurant__Item">
-          <a href="#"><img class="Restaurant__ItemImg" src="./img/top/dummy-top6.jpg" alt="dummy-top6"></a>
+          <a href="#"><img class="Restaurant__ItemImg" onclick="animation(this);" src="./img/top/dummy-top5.jpg" alt="dummy-top5"></a>
         </li>
         <li class="Restaurant__Item">
-          <a href="#"><img class="Restaurant__ItemImg" src="./img/top/dummy-top7.jpg" alt="dummy-top7"></a>
+          <a href="#"><img class="Restaurant__ItemImg" onclick="animation(this);" src="./img/top/dummy-top6.jpg" alt="dummy-top6"></a>
         </li>
         <li class="Restaurant__Item">
-          <a href="#"><img class="Restaurant__ItemImg" src="./img/top/dummy-top8.jpg" alt="dummy-top8"></a>
+          <a href="#"><img class="Restaurant__ItemImg" onclick="animation(this);" src="./img/top/dummy-top7.jpg" alt="dummy-top7"></a>
+        </li>
+        <li class="Restaurant__Item">
+          <a href="#"><img class="Restaurant__ItemImg" onclick="animation(this);" src="./img/top/dummy-top8.jpg" alt="dummy-top8"></a>
         </li>
       </ul>
     </div>
     <div class="bottom">
       <img src="./img/icon/plus.png" alt="plus-icon">
     </div>
-
   </div>
+  <script src="./js/lib/anime.min.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
 </body>
 
 </html>
