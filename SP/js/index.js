@@ -1,12 +1,6 @@
-/*document.getElementById('anime__img').addEventListener('click',function(){
-  //拡大縮小
-  anime({
-    targets: '#anime__img',
-    scale:0.8
-  });
-});
-*/
-
+/***********************
+押した時プニュっとなるアニメーション
+***********************/
 function animation(ele){
   anime({
     targets: ele,
@@ -14,3 +8,20 @@ function animation(ele){
     direction: 'alternate'
   });
 };
+
+/************************
+スクロールのフェードイン
+************************/
+
+$(function(){
+	$(window).scroll(function (){
+		$('.fadein').each(function(){
+			var elemPos = $(this).offset().top;
+			var scroll = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (scroll > elemPos - windowHeight){
+				$(this).addClass('scrollin');
+			}
+		});
+	});
+});
