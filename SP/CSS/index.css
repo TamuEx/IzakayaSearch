@@ -44,14 +44,14 @@
     display: inline-block;
   }
 
-  /*******************
-    レストランリスト
-  ********************/
-  .Restaurant__List {
+  .Description{
     width: 100%;
     padding-top: 36px;
   }
 
+  /*******************
+    レストランリスト
+  ********************/
   .Restaurant__wrapper {
     display: flex;
     flex-wrap: wrap;
