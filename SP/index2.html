@@ -19,6 +19,7 @@
       <p>簡単にこのサイトの使い方を説明します</p>
       <p>マップを差し込むよりとりあえず説明文を入れるべきだと思った次第でございます</p>
     </div>
+
     <div class="Restaurant__List">
       <ul class="Restaurant__wrapper">
         <li class="Restaurant__Item">
@@ -51,39 +52,19 @@
       <div class="infinite-scroll-request loader-ellips">
 
       </div>
-      <p class="infinite-scroll-last">最後のページだよ</p>
-      <p class="infinite-scroll-error">ないページをロードしようとしてるよ</p>
+      <p class="infinite-scroll-last">End of content</p>
+      <p class="infinite-scroll-error">No more pages to load</p>
     </div>
     <p class="pagination">
       <a class="pagination__next" href="index2.html">Next page</a>
     </p>
   </div>
+
   <script src="./js/lib/anime.min.js"></script>
   <script src="./js/lib/jquery-3.4.1.min.js"></script>
   <script src="./js/lib/infinite-scroll.pkgd.min.js"></script>
   <script type="text/javascript" src="./js/index.js"></script>
-  <script type="text/javascript">
-    $('.Restaurant__List').infiniteScroll({
-      path: '.pagination__next',
-      append: '.Restaurant__wrapper',
-      status: '.scroller-status',
-      hideNav: '.pagination',
-      checkLastPage: '.pagination__next',
-      history: false
-    });
-    console.log(':D');
-    /*
-    残ってる問題
-    ・終了トリガー(エラーで無理やり止めてる状態)
-
-    追加したいもの
-    ・遷移先のページ作成
-    ・UI改善
-    ・ハンバーガーメニュー
-    ・思いついたら
-    */
-
-  </script>
+  
 </body>
 
 </html>
